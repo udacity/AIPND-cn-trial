@@ -1,0 +1,5 @@
+msgpack
+pinyin
+SnowNLP
+jieba
+itchat
