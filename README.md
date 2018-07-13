@@ -80,3 +80,27 @@
 
 `jupyter notebook "My Wechat Friends.ipynb"`
 
+
+## Q&A
+**Q1：如何启动Jupyter Notebook？**
+A1：Windows：快捷键Win + R打开运行界面，输入cmd，回车打开cmd窗口，窗口中输入'cd 目标路径'代码，如cd G:（进入到目标路径G:下），输入jupyter notebook，打开notebook界面。Mac电脑：同样的操作在Terminal（终端）中执行。
+
+**Q2：如何打开Spyder？**
+A2：进入开始菜单，点击Anaconda2/3文件夹，点击Spyder
+
+**Q3：第三方包安装问题**
+A3：进入cmd窗口，输入pip install 包名（或conda install 包名），注意这样安装会把包安装到默认环境下，如果已经使用conda分割了环境，如默认环境为myenv1，另一个环境为myenv2，如果需要在myenv2中安装包，需要在cmd中输入activate myenv2，激活对应的环境，然后使用pip install安装。两个环境中的包并不能共享，如果需要两个环境中有相同的包，分别在两个环境中安装，或使用conda重新划分环境。
+
+**Q4：wordcloud包安装**
+A4：Step1：在http://www.lfd.uci.edu/~gohlke/pythonlibs/#wordcloud网址下载对应的whl文件（下载whl文件注意要版本对应，查看python版本号，在cmd中输入python --version获得） Step2：cmd窗口cd到whl所在的路径，使用pip install whl文件名安装
+
+**Q5：Jupyter Notebook换到其它浏览器打开需要输入密码。**
+![](./imgs/faq1.png)
+A5：根据下面Token authentication is enabled中的提示进行操作，在cmd界面输入jupyter notebook list，然后右键选择标记token=后面的字符串（或左键选中），使用ctrl + c复制，ctrl + v粘贴在网页中的框内，点击log in登陆。
+
+**Q6：安装项目需要的包**
+![](./imgs/faq2.png)
+
+Q7：根据红字提示的信息操作包，No module named 'itchat'说明没有itchat，所以需要pip install itchat。注意在安装SnowNLP，pinyin包时可能会出现中途报错的情况，需要重新输出pip install安装。
+
+
