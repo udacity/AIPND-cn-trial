@@ -2,6 +2,12 @@
 
 ## 安装
 
+### Step 0 下载实战项目代码
+
+点击本页面右上方的绿色按钮“Clone or download”，然后选择“Download ZIP”下载项目所需代码。
+
+![](./imgs/ana0.jpg)
+
 ### Step 1 安装Anaconda环境
 
 首先我们需要在Windows系统上安装Anaconda环境，到[官网](https://www.anaconda.com/download)选择一个版本下载，建议选择Python3.6版本，如下图所示：
