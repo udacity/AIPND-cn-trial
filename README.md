@@ -84,7 +84,7 @@
 
 下载完成后，在终端中输入以下命令然后回车，稍等片刻，就可以在打开的浏览器窗口中开始实战项目了！
 
-`jupyter notebook "My Wechat Friends.ipynb"`
+`jupyter notebook MyWechatFriends.ipynb`
 
 
 ## Q&A
